@@ -58,8 +58,8 @@
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
     "publicIPAddressName": "myPublicIP",
-    "vmName": "SimpleWindowVM",
-    "virtualNetworkName": "MyVNETWORKDemo",
+    "vmName": "SimpleWindowVM2",
+    "virtualNetworkName": "MyVNETWORK",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
     "networkSecurityGroupName": "default-NSG"
   },
