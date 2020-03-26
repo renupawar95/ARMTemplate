@@ -53,13 +53,13 @@
   },
   "variables": {
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'sawinvm')]",
-    "nicName": "myVMNic",
+    "nicName": "myVMNicdemo",
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
     "publicIPAddressName": "myPublicIP",
-    "vmName": "SimpleWindowVM2",
-    "virtualNetworkName": "MyVNETWORK",
+    "vmName": "SimpleWindowVM3",
+    "virtualNetworkName": "MyVNETWORKsecond",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
     "networkSecurityGroupName": "default-NSG"
   },
